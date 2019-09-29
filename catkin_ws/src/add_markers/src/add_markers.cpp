@@ -118,11 +118,13 @@ int main( int argc, char** argv )
 			
 		}else if(close&&picked){
 			ROS_INFO("robot reached the drop-off position");
-			ros::Duration(5.0).sleep();
+			
 			marker.pose.position.x=goalX2;
 			marker.pose.position.y=goalY2;
 			marker.action=visualization_msgs::Marker::ADD;
+			
 			marker_pub.publish(marker);
+			ros::Duration(5.0).sleep();
 			state=DROP_OFF;
 			
 		}else{
