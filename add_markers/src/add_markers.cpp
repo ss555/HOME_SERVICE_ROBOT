@@ -122,7 +122,6 @@ int main( int argc, char** argv )
 			marker.pose.position.x=goalX2;
 			marker.pose.position.y=goalY2;
 			marker.action=visualization_msgs::Marker::ADD;
-			
 			marker_pub.publish(marker);
 			ros::Duration(5.0).sleep();
 			state=DROP_OFF;
