@@ -1,7 +1,7 @@
-﻿﻿﻿# HOME_SERVICE_ROBOT
+# HOME_SERVICE_ROBOT
  IMPLEMENTATION OF HOME SERVICE ROBOT ON Gazebo/Rviz
 
-RQT graph of the project for better observation:
+RQT graph of the project for better observation:
 ![](IMAGES/rqt.png)
 
 overview on rviz:
